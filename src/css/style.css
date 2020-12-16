@@ -165,6 +165,92 @@ h2 {
   text-decoration: underline;
 }
 
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+footer ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 13.5px;
+  margin-right: 60px;
+}
+
+footer p {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 24px;
+  margin-right: 248px;
+  
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+ul.sponsors-list li:not(.polar) {
+  /* margin-top: 20px */
+}
+.polar {
+  width: 65px;
+  height: 50px;
+}
+.img-sup-container {
+  position: relative;
+  left: 66px;
+  bottom: 17px;
+}
+.polar img {
+  right: 0;
+  position: absolute;
+  width: 54px;
+}
+ul.sponsors-list li.verndale {
+  margin-left: 58px;
+  margin-top: 15px;
+  width: 200px;
+  height: 51px;
+}
+.img-sup-container {
+  position: relative;
+}
+.polar img {
+  right: 0;
+  position: absolute;
+}
+
+.verndale {
+  margin-left: 58px;
+  margin-top: 15px;
+  height: 51px;
+}
+.verndale img {
+  top: 12px;
+  right: -5px;
+  position: absolute;
+  width: 110%;
+}
+.msg {
+  margin: 0;
+  margin-left: 59px;
+  margin-top: -2px
+}
+.sevenup {
+  margin-left: 38px;
+} 
+
+.sevenup img {
+  margin: 0;
+  margin-left: 119%;
+    margin-top: 10%;
+}
+
 
 
 
